@@ -19,7 +19,7 @@ if (num > 5)
 {
 printf("%d and is greater that 5\n", num);
 }
-else if ((num < 6) && (num < 0))
+else if ((num % 10) < 6 && (num % 10) != 0)
 {
 printf("%d and is less than 6 and  0\n", num);
 }
