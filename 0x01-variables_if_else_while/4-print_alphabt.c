@@ -2,23 +2,17 @@
 /**
  * main - Entry
  *
- * Return: Always 0 (success)
+ * Return: 0 Always (success)
  */
 int main(void)
 {
 char c;
-char d;
-c = 'a';
-d = 'A';
-for
+c = 'z';
+while
 (c <= 'z') {
+if ((c != 'q' && c != 'e') && c <= 'z')
 putchar(c);
 c++;
-}
-for
-(d <= 'z') {
-putchar(d);
-d++;
 }
 putchar('\n');
 return (0);
