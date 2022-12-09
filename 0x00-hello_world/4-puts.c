@@ -2,6 +2,8 @@
 	/**
 	 * main - Entry point
 	 *
+	 * Description: 'first program'
+	 *
 	 * Return: Always (0) sucess
 	 */
 int main(void)
