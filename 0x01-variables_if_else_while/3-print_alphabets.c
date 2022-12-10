@@ -6,19 +6,12 @@
  */
 int main(void)
 {
-char c;
-c = 'a';
-while
-(c <= 'z') {
-putchar(c);
-c++;
-}
-c = 'A';
-while
-(c <= 'z') {
-putchar(c);
-c++;
-}
+int ch;
+/**/
+for (ch = 'a'; ch <= 'z'; ch++)
+putchar(ch);
+for (ch = 'A'; ch <= 'Z'; ch++)
+putchar(ch);
 putchar('\n');
 return (0);
 }
