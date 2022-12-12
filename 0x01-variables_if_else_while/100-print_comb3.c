@@ -1,34 +1,38 @@
 #include <stdio.h>
 /**
  * main - print all different combinations of two digits
+ * in ascending order, separated by a comma followed by a space
  *
- * Return Always 0 (success)
+ * Return: Always 0.
  *
  */
 int main(void)
 {
-int ones = '0';
-int tens = '0';
-for (tens = '0' ; tens <= '9'; tens++);
 
-/*prints tens digit*/
+int digit1, digit2;
 
-for (ones = '0'; ones <= '9'; ones++);
+for (digit1 = 0; digit1 < 9; digit1++)
 
-/*prints ones digit*/
+{
 
-if (!((ones == tens) || (tens > ones)))
+for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 
-/*eliminates repitition*/
+{
 
-putchar(tens); 
-putchar(ones);
-if (!(ones == '9' && tens == '8'))
+putchar((digit1 % 10) + '0');
+putchar((digit2 % 10) + '0');
 
-/*addes comma and spaces*/
+if (digit1 == 8 && digit2 == 9)
 
+continue;
 putchar(',');
 putchar(' ');
+
+}
+
+}
+
 putchar('\n');
+
 return (0);
 }
