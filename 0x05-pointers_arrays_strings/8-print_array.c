@@ -6,7 +6,7 @@
  * @a: array
  * @n: number of elements
  *
- * Return: Always 0 (success)
+ * Return: nothing
  */
 void print_array(int *a, int n)
 {
