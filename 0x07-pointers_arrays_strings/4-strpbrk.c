@@ -9,7 +9,6 @@
  * Return: pointer to the bytes in @s
  *         or NULL if no such byte is found
 */
-
 char *_strpbrk(char *s, char *accept)
 {
 	int i, j;
