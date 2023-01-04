@@ -2,6 +2,7 @@
 
 /**
  * _strchr - locates a character in a string
+ *
  * @s: string to be scanned
  * @c: character to be searched
  *
