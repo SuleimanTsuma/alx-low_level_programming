@@ -9,7 +9,6 @@
  *
  * Return: nothing
 */
-
 void print_diagsums(int *a, int size)
 {
 	int i, S1, S2;
