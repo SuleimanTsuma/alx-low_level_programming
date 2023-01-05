@@ -7,7 +7,6 @@
  *
  * Return: 1 if n is prime otherwise 0
  */
-
 int is_prime_number(int n)
 {
 	int start = n / 2;
