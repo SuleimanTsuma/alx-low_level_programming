@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _memset - fills memory with a constant
  * @s: memory area

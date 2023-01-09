@@ -6,6 +6,7 @@
  * @needle: substring
  * Return: pointer to the beggining
  */
+
 char *_strstr(char *haystack, char *needle)
 {
 

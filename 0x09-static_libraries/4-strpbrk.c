@@ -6,7 +6,6 @@
  * @accept: second string
  * Return: a pointer to the bytes i s
  */
-
 char *_strpbrk(char *s, char *accept)
 {
 

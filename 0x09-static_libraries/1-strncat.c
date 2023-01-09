@@ -7,7 +7,6 @@
  * @n: amount of bytes
  * Return: the pointer
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
 

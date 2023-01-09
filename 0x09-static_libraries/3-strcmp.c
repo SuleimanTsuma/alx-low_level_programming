@@ -7,7 +7,6 @@
  * Return: 0 if s! and s2 are equals
  * another number if not
  */
-
 int _strcmp(char *s1, char *s2)
 {
 

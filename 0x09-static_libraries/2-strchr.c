@@ -6,6 +6,7 @@
  * @c: character
  * Return: the pointer to the first occurence
  */
+
 char *_strchr(char *s, char c)
 {
 
