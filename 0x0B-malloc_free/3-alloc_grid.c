@@ -7,6 +7,7 @@
  *
  * Return: pointer of an array of integers
  */
+
 int **alloc_grid(int width, int height)
 {
 	int **gridout;
