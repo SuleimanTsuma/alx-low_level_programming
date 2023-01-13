@@ -8,6 +8,7 @@
  * Return: a pointer to the allocated memory. If memory fails
  * should cause normal process termination with a status value of 98
  */
+
 void *malloc_checked(unsigned int b)
 {
 	int *r;
