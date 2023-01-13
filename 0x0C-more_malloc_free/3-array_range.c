@@ -10,7 +10,6 @@
  * if man > min returns NULL
  * if malloc fails, Return NULL
  */
-
 int *array_range(int min, int max)
 {
 	int i, l;
