@@ -8,6 +8,7 @@
  *
  * Return: 0 if a non-digit is found, 1 otherwise
  */
+
 int is_digit(char *s)
 {
 	int i = 0;
