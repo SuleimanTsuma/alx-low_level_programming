@@ -5,7 +5,8 @@
  * dog_t - typedef for strut dog
  *
  */
-typedef struct dog dog_t;
+
+typedef struct dog  dog_t;
 
 /**
  * struct dog - struct stores some info of a dog
