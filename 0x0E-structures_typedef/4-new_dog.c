@@ -10,7 +10,6 @@
  * Return: struct dog
  * if falls, returns NULL
  */
-
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *p_dog;
