@@ -9,6 +9,7 @@
  * @symbol: a symbol representing a data type
  * @print: a function pointer to afunction
  */
+
 typedef struct printer
 {
 	char *symbol;
