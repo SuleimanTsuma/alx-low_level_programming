@@ -10,6 +10,7 @@
  * Description: if separator is NULL, it is not printed.
  *               if one of the string is NULL, (nil) is printed
  */
+
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list strings;
