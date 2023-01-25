@@ -12,6 +12,7 @@ void print_all(const char * const format, ...);
  * print_char - prints a char
  * @arg: a list of arguments pointing to the character
  */
+
 void print_char(va_list arg)
 {
 	char letter;
