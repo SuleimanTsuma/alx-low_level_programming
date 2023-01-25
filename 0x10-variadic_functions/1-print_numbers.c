@@ -9,6 +9,7 @@
  * @separator: string to be printed between numbers
  * Return: Nothing if separator in NULL
  */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list numbers;
