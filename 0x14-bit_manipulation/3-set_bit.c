@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * set_bit - set bit to 1 at index
  * @n: number
