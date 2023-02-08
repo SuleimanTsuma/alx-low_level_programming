@@ -9,6 +9,7 @@
  * @letters: chars to read
  * Return: chars read
  */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;
