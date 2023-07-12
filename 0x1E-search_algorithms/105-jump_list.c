@@ -9,6 +9,7 @@
  *
  * Return: node with desired index, or last node in the list
  */
+
 listint_t *move_forward(listint_t *list, size_t index)
 {
 	while (list->next != NULL && list->index < index)
