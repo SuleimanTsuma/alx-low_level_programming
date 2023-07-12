@@ -8,6 +8,7 @@
  *
  * Return: The smaller of the two values, or a if equal
  */
+
 size_t minimum_value(size_t a, size_t b)
 {
 	if (b < a)
